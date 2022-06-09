@@ -1,0 +1,10 @@
+@import "../../../variables.scss";
+.list {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+  padding: 1rem 0;
+  @media screen and(min-width: $desktop-breakpoint) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

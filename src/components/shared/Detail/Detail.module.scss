@@ -1,0 +1,14 @@
+@import "../../../variables.scss";
+.detail {
+  font-weight: bold;
+  & > span {
+    font-weight: normal;
+  }
+  & > a {
+    color: $white;
+    padding: 0 0.25rem;
+  }
+}
+.center {
+  text-align: center;
+}

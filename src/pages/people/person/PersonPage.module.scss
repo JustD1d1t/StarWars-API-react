@@ -1,0 +1,26 @@
+@import "../../../variables.scss";
+.person {
+  background-image: linear-gradient(black, black),
+    url("../../../static/img/person.jpg");
+  background-blend-mode: color;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding-bottom: 4rem;
+  &__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-gap: 1rem;
+  }
+  &__title {
+    grid-column: span 2;
+    background-color: $black;
+  }
+  &__subtitle {
+    grid-column: span 2;
+  }
+  &__detailsWithLinks {
+    align-items: center;
+  }
+}

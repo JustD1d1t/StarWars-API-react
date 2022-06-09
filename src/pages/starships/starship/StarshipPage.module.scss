@@ -1,0 +1,15 @@
+@import "../../../variables.scss";
+.starship {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  &__image {
+    grid-column: span 3;
+    & > img {
+      width: 50%;
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}

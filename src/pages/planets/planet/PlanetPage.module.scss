@@ -1,0 +1,14 @@
+.planet {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  &__image {
+    grid-column: span 2;
+    & > img {
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}

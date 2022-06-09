@@ -1,0 +1,56 @@
+@import "./variables.scss";
+
+@font-face {
+  font-family: roboto-mono;
+  src: url("./static/fonts/RobotoMono-Bold.ttf");
+}
+@font-face {
+  font-family: roboto-mono;
+  src: url("./static/fonts/RobotoMono-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "roboto-mono", monospace;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: $white;
+  min-height: 101vh;
+}
+
+a {
+  transition: opacity 0.15s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+button {
+  color: $white;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+main {
+  min-height: 200px;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  position: relative;
+}

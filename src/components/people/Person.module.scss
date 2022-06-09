@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+.person {
+  background-image: linear-gradient(black, black),
+    url("../../static/img/people.jpg");
+  background-blend-mode: saturation;
+  background-size: cover;
+  object-position: 50% 50%;
+  color: $white;
+  padding: 1rem 2rem;
+  flex-grow: 1;
+  height: 250px;
+  &__name {
+    & a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
