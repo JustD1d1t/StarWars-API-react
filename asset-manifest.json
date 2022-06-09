@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/StarWars-API-react/static/css/main.47097260.css",
+    "main.js": "/StarWars-API-react/static/js/main.ed1ad40d.js",
+    "static/media/starship-page.jpg": "/StarWars-API-react/static/media/starship-page.611ceedf69e5dc31f15f.jpg",
+    "static/media/film.jpg": "/StarWars-API-react/static/media/film.aa07d31bb5f90d0e5710.jpg",
+    "static/media/people.jpg": "/StarWars-API-react/static/media/people.5fbe515dd714d9e7e0a1.jpg",
+    "static/media/vehicle-page.jpg": "/StarWars-API-react/static/media/vehicle-page.d72f1e9132861fe95225.jpg",
+    "static/media/starship.jpg": "/StarWars-API-react/static/media/starship.8665da102cafe5fd88f0.jpg",
+    "static/media/vehicle.jpg": "/StarWars-API-react/static/media/vehicle.a405f0f7c2f87d941f44.jpg",
+    "static/media/planet.jpg": "/StarWars-API-react/static/media/planet.2d23816f853a06e7cabb.jpg",
+    "static/media/RobotoMono-Bold.ttf": "/StarWars-API-react/static/media/RobotoMono-Bold.1d29748c6ba7e786c050.ttf",
+    "static/media/RobotoMono-Regular.ttf": "/StarWars-API-react/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "static/media/species-page.jpg": "/StarWars-API-react/static/media/species-page.858f30a071ddcd048816.jpg",
+    "static/media/species.jpg": "/StarWars-API-react/static/media/species.edf8a127077248ca515e.jpg",
+    "static/media/person.jpg": "/StarWars-API-react/static/media/person.8bd6dc1e975a974c6fb9.jpg",
+    "static/media/planet-page.jpg": "/StarWars-API-react/static/media/planet-page.200715b7772c537d5767.jpg",
+    "static/media/starwars.jpg": "/StarWars-API-react/static/media/starwars.4096dbe05c27b095d3cb.jpg",
+    "index.html": "/StarWars-API-react/index.html",
+    "main.47097260.css.map": "/StarWars-API-react/static/css/main.47097260.css.map",
+    "main.ed1ad40d.js.map": "/StarWars-API-react/static/js/main.ed1ad40d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47097260.css",
+    "static/js/main.ed1ad40d.js"
+  ]
+}
