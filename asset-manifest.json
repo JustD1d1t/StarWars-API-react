@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/StarWars-API-react/static/css/main.47097260.css",
-    "main.js": "/StarWars-API-react/static/js/main.31a03849.js",
+    "main.css": "/StarWars-API-react/static/css/main.68e48fb8.css",
+    "main.js": "/StarWars-API-react/static/js/main.90730d5f.js",
     "static/media/starship-page.jpg": "/StarWars-API-react/static/media/starship-page.611ceedf69e5dc31f15f.jpg",
     "static/media/film.jpg": "/StarWars-API-react/static/media/film.aa07d31bb5f90d0e5710.jpg",
     "static/media/people.jpg": "/StarWars-API-react/static/media/people.5fbe515dd714d9e7e0a1.jpg",
@@ -17,11 +17,11 @@
     "static/media/planet-page.jpg": "/StarWars-API-react/static/media/planet-page.200715b7772c537d5767.jpg",
     "static/media/starwars.jpg": "/StarWars-API-react/static/media/starwars.4096dbe05c27b095d3cb.jpg",
     "index.html": "/StarWars-API-react/index.html",
-    "main.47097260.css.map": "/StarWars-API-react/static/css/main.47097260.css.map",
-    "main.31a03849.js.map": "/StarWars-API-react/static/js/main.31a03849.js.map"
+    "main.68e48fb8.css.map": "/StarWars-API-react/static/css/main.68e48fb8.css.map",
+    "main.90730d5f.js.map": "/StarWars-API-react/static/js/main.90730d5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.47097260.css",
-    "static/js/main.31a03849.js"
+    "static/css/main.68e48fb8.css",
+    "static/js/main.90730d5f.js"
   ]
 }
