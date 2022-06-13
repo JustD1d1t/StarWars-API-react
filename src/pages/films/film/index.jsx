@@ -48,7 +48,7 @@ const FilmPage = () => {
             <Detail>
               Release date <span>{release_date}</span>
             </Detail>
-            <DetailWithLinks title="Characters" items={characters} />
+            <DetailWithLinks title="People" items={characters} />
             <DetailWithLinks title="Planets" items={planets} />
             <DetailWithLinks title="Species" items={species} />
             <DetailWithLinks title="Starships" items={starships} />

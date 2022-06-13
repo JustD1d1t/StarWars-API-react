@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+.main {
+  &__content {
+    color: $white;
+    text-align: center;
+    & p {
+      font-size: $medium-font;
+      margin: 2rem 0;
+    }
+    & a {
+      color: $white;
+      font-weight: bold;
+    }
+  }
+}
