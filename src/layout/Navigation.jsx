@@ -14,11 +14,13 @@ const Navigation = (props) => {
   };
 
   const handleNavigation = () => {
-    const navLinksList = document.querySelector(
-      `.${classes.navigation__links}`
-    );
-    navLinksList.classList.toggle(classes.navigation__linksActive);
-    handleHamburger();
+    if (window.innerWidth < 1440) {
+      const navLinksList = document.querySelector(
+        `.${classes.navigation__links}`
+      );
+      navLinksList.classList.toggle(classes.navigation__linksActive);
+      handleHamburger();
+    }
   };
 
   const navigationLinks = routes.map(
