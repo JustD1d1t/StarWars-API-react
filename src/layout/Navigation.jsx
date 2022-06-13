@@ -6,25 +6,35 @@ import classes from "./Navigation.module.scss";
 import logo from "../static/img/sw-logo.png";
 
 const Navigation = (props) => {
+  const handleHamburger = () => {
+    const hamburger = document.querySelector(
+      `.${classes.navigation__hamburger}`
+    );
+    hamburger.classList.toggle(classes.navigation__hamburgerActive);
+  };
+
+  const handleNavigation = () => {
+    const navLinksList = document.querySelector(
+      `.${classes.navigation__links}`
+    );
+    navLinksList.classList.toggle(classes.navigation__linksActive);
+    handleHamburger();
+  };
+
   const navigationLinks = routes.map(
     (route) =>
       route.showInNavigation && (
         <li key={route.path}>
-          <NavLink to={route.path} className={classes.navigation__link}>
+          <NavLink
+            to={route.path}
+            className={classes.navigation__link}
+            onClick={handleNavigation}
+          >
             {route.label}
           </NavLink>
         </li>
       )
   );
-
-  const handleSideDrawer = () => {
-    const hamburger = document.querySelector(
-      `.${classes.navigation__hamburger}`
-    );
-    const navLinks = document.querySelector(`.${classes.navigation__links}`);
-    hamburger.classList.toggle(classes.navigation__hamburgerActive);
-    navLinks.classList.toggle(classes.navigation__linksActive);
-  };
 
   return (
     <nav className={classes.navigation}>
@@ -36,7 +46,7 @@ const Navigation = (props) => {
       <ul className={classes.navigation__links}>{navigationLinks}</ul>
       <button
         className={classes.navigation__hamburger}
-        onClick={handleSideDrawer}
+        onClick={handleNavigation}
         aria-label="Open sidedrawer menu"
       >
         <span></span>
